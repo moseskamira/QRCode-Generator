@@ -1,16 +1,9 @@
-# qrcode_generator
+# QRCode Generator
 
-A new Flutter project.
+- This project demos the implementation of QR Code generation using flutter.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- A user inputs text in a TextFormField just below the QRImage that is then mapped as data for the
+  QRcode into the QRImage.
+- This QRImage can be scanned and the input text is displayed.
